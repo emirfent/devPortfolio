@@ -198,7 +198,7 @@ const OFFSET = (CELL_SIZE - ELEMENT_SIZE) / 2;
 - **Editor Tabs**: Interactive close buttons ve active states
 - **Status Bar**: Social media integration
 - **Color Scheme**: Pixel-perfect VS Code dark theme replica
-- **Keyboard Navigation**: Full arrow key support (Henüz bu özellik ve ekran okuyucu tam desteklenmemekte😔)
+- **Keyboard Navigation**: Full arrow key support (Keyboard Navigation ve Screen Reader geliştirme aşamasında⏳)
 
 ### 🎮 Advanced Game Engine
 ```javascript

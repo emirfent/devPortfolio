@@ -92,43 +92,43 @@ export default function Page(){
       <div className="font-mono text-xs space-y-1 overflow-x-auto animate-fadeInUp">
         <div className="flex">
           <span className="text-gray-500 w-8 text-right mr-4">1</span>
-          <span className="text-gray-500">/**</span>
+          <span className="text-gray-500">{"/**"}</span>
         </div>
         <div className="flex">
           <span className="text-gray-500 w-8 text-right mr-4">2</span>
-          <span className="text-gray-500"> * Hakkımda</span>
+          <span className="text-gray-500">{" * Hakkımda"}</span>
         </div>
         <div className="flex">
           <span className="text-gray-500 w-8 text-right mr-4">3</span>
-          <span className="text-gray-500"> * Bilgisayar mühendisliği alanında deneyimli ve teknik becerilere sahip biriyim.</span>
+          <span className="text-gray-500">{" * Bilgisayar mühendisliği alanında deneyimli ve teknik becerilere sahip biriyim."}</span>
         </div>
         <div className="flex">
           <span className="text-gray-500 w-8 text-right mr-4">4</span>
-          <span className="text-gray-500"> * C#, C++, Python ve JavaScript programlama dillerinde bilgi sahibiyim.</span>
+          <span className="text-gray-500">{" * C#, C++, Python ve JavaScript programlama dillerinde bilgi sahibiyim."}</span>
         </div>
         <div className="flex">
           <span className="text-gray-500 w-8 text-right mr-4">5</span>
-          <span className="text-gray-500"> * Üniversite eğitimim süresince hem donanım hem de yazılım odaklı projeler geliştirdim.</span>
+          <span className="text-gray-500">{" * Üniversite eğitimim süresince hem donanım hem de yazılım odaklı projeler geliştirdim."}</span>
         </div>
         <div className="flex">
           <span className="text-gray-500 w-8 text-right mr-4">6</span>
-          <span className="text-gray-500"> * Görüntü işleme, makine öğrenmesi ve derin öğrenme konularında projeler yaparak;</span>
+          <span className="text-gray-500">{" * Görüntü işleme, makine öğrenmesi ve derin öğrenme konularında projeler yaparak;"}</span>
         </div>
         <div className="flex">
           <span className="text-gray-500 w-8 text-right mr-4">7</span>
-          <span className="text-gray-500"> * Support Vector Machine (SVM), Transformer mimarileri ve Vision-Language Models (VLM) üzerine yetkinliğimi artırdım.</span>
+          <span className="text-gray-500">{" * Support Vector Machine (SVM), Transformer mimarileri ve Vision-Language Models (VLM) üzerine yetkinliğimi artırdım."}</span>
         </div>
         <div className="flex">
           <span className="text-gray-500 w-8 text-right mr-4">8</span>
-          <span className="text-gray-500"> * Amacım; sahip olduğum bilgi ve deneyimi kullanarak yenilikçi ve sürdürülebilir çözümler üretmek,</span>
+          <span className="text-gray-500">{" * Amacım; sahip olduğum bilgi ve deneyimi kullanarak yenilikçi ve sürdürülebilir çözümler üretmek,"}</span>
         </div>
         <div className="flex">
           <span className="text-gray-500 w-8 text-right mr-4">9</span>
-          <span className="text-gray-500"> * sektöre değer katmak ve sürekli gelişim sağlamaktır.</span>
+          <span className="text-gray-500">{" * sektöre değer katmak ve sürekli gelişim sağlamaktır."}</span>
         </div>
         <div className="flex">
           <span className="text-gray-500 w-8 text-right mr-4">10</span>
-          <span className="text-gray-500"> */</span>
+          <span className="text-gray-500">{" */"}</span>
         </div>
         <div className="flex">
           <span className="text-gray-500 w-8 text-right mr-4">11</span>

@@ -328,6 +328,6 @@ npm run start
 - **Telefon**: [+90 507 100 32 92](tel:+905071003292)
 
 ---
-**Open Source is ❤️**
-**Emir Fent** 
+**Open Source is ❤️**  
+**Emir Fent**  
 ---

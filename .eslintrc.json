@@ -1,7 +1,7 @@
 {
   "extends": "next/core-web-vitals",
   "rules": {
-    "react/no-unescaped-entities": "off",  //gereksiz warning çıktığı için kapattım
+    "react/no-unescaped-entities": "off",  //gereksiz warning çıktığı için off state 
     "react/jsx-no-comment-textnodes": "warn",
     "@next/next/no-img-element": "warn"
   }

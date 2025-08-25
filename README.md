@@ -297,6 +297,7 @@ npm run start
 - [ ] **Search Functionality**: Global content search
 - [ ] **Font Size Improvements**: ⭐Tüm cihazlarda optimal boyutlar⭐
 - [ ] **Favicon ve Og-image**: Yaptığım tasarımların hiçbirinden emin olamadığım için eklenmedi.
+- [ ] **Contact Sayfası API Entegrasyonu**: İletişime geç kısmını aktifleştirme.
 ### 🚀 Teknik İyileştirmeler
 - [ ] **Unit Tests**: Jest + React Testing Library
 - [ ] **E2E Tests**: Playwright entegrasyon

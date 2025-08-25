@@ -35,14 +35,14 @@ export default function Page(){
               Yeni teknolojilerle çözümler geliştirmeyi seviyorum.
             </p>
             <div className="flex flex-wrap gap-2">
-              <span className="bg-blue-500/20 text-blue-400 px-2 py-1 rounded text-xs font-mono">Machine Learning</span>
-              <span className="bg-green-500/20 text-green-400 px-2 py-1 rounded text-xs font-mono">IoT Systems</span>
-              <span className="bg-cyan-500/20 text-cyan-400 px-2 py-1 rounded text-xs font-mono">Full Stack Development</span>
-              <span className="bg-purple-500/20 text-purple-400 px-2 py-1 rounded text-xs font-mono">Computer Vision</span>
+              <span className="bg-blue-500/20 text-blue-400 px-2 py-1 rounded text-sm font-mono">Machine Learning</span>
+              <span className="bg-green-500/20 text-green-400 px-2 py-1 rounded text-sm font-mono">IoT Systems</span>
+              <span className="bg-cyan-500/20 text-cyan-400 px-2 py-1 rounded text-sm font-mono">Full Stack Development</span>
+              <span className="bg-purple-500/20 text-purple-400 px-2 py-1 rounded text-sm font-mono">Computer Vision</span>
             </div>
           </div>
 
-          <div className="space-y-2 md:space-y-3 text-gray-400 font-mono text-xs sm:text-sm md:text-base">
+          <div className="space-y-2 md:space-y-3 text-gray-400 font-mono text-sm sm:text-sm md:text-base">
             <p className="hidden xl:block">{`// Sağdaki Snake oyununu oynayabilirsiniz 🐍`}</p>
             <p className="xl:hidden">{`// Projelerimi ve deneyimlerimi keşfedin`}</p>
             <p>{`// İletişim için:`}</p>

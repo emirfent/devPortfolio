@@ -31,7 +31,7 @@ function FileTreeItemComponent({ item, level = 0 }: FileTreeItemProps) {
         {item.type === 'folder' && item.children ? (
           <Icon 
             name={expanded ? "ri-arrow-down-s-line" : "ri-arrow-right-s-line"} 
-            className="text-xs w-3 h-3 flex-shrink-0"
+            className="text-sm w-3 h-3 flex-shrink-0"
           />
         ) : (
           <div className="w-3 h-3 flex-shrink-0"></div>
@@ -67,7 +67,7 @@ export default function FileTree({ data, className = '' }: FileTreeProps) {
     <div className={`hidden md:flex w-80 bg-gray-900/95 border-r border-gray-600 flex-col ${className}`}>
       {/* Explorer header */}
       <div className="p-3 border-b border-gray-600 bg-gray-800/30 h-12 flex items-center">
-        <div className="flex items-center gap-2 text-gray-300 font-mono text-xs font-medium">
+        <div className="flex items-center gap-2 text-gray-300 font-mono text-sm font-medium">
           <Icon name="ri-folder-line" className="w-4 h-4"/>
           EXPLORER
         </div>

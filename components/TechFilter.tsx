@@ -50,7 +50,7 @@ export default function TechFilter({items}:{items:Project[]}){
                 >
                   <Icon name={t.icon} className="w-4 h-4 flex-shrink-0"/> 
                   <span className="truncate">{t.key}</span>
-                  <span className="ml-auto text-xs">{checked?'✓':''}</span>
+                  <span className="ml-auto text-sm">{checked?'✓':''}</span>
                 </button>
               </li>
             )
@@ -71,16 +71,16 @@ export default function TechFilter({items}:{items:Project[]}){
                 className="w-full h-full object-cover"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
-              <div className="absolute top-2 right-2 bg-gray-900/80 text-xs px-2 py-1 rounded text-gray-300 font-mono flex items-center gap-1">
+              <div className="absolute top-2 right-2 bg-gray-900/80 text-sm px-2 py-1 rounded text-gray-300 font-mono flex items-center gap-1">
                 <Icon name="ri-code-line" className="w-3 h-3"/> {p.tech[0]}
               </div>
             </div>
             <div className="p-3 md:p-4">
               <div className="text-sm md:text-base font-medium text-white font-mono break-words">{p.title}</div>
-              <p className="text-xs md:text-sm text-gray-400 mt-1 font-mono">{p.desc}</p>
+              <p className="text-sm md:text-sm text-gray-400 mt-1 font-mono">{p.desc}</p>
               <div className="mt-3 flex flex-wrap gap-1">
                 {p.tech.map((tech, index) => (
-                  <span key={index} className="text-xs px-2 py-1 bg-gray-700/50 text-gray-300 rounded font-mono">
+                  <span key={index} className="text-sm px-2 py-1 bg-gray-700/50 text-gray-300 rounded font-mono">
                     {tech}
                   </span>
                 ))}

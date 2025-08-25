@@ -11,7 +11,7 @@ export default function EditorTabs({ tabs, className = '' }: EditorTabsProps) {
         >
           {tab.name}
           <button className="ml-2 text-gray-500 hover:text-gray-300">
-            <Icon name="ri-close-line" className="text-xs"/>
+            <Icon name="ri-close-line" className="text-sm"/>
           </button>
         </div>
       ))}

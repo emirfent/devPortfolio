@@ -17,7 +17,7 @@ export default function ContactPage() {
         <div className="space-y-6">
           <div className="space-y-4">
             <h2 className="text-lg md:text-2xl font-semibold text-white font-mono break-words">Birlikte çalışalım!</h2>
-            <p className="text-gray-400 font-mono text-xs md:text-base">
+            <p className="text-gray-400 font-mono text-sm md:text-base">
               Yeni projeler, işbirlikleri veya herhangi bir sorunuz için 
               benimle iletişime geçmekten çekinmeyin.
             </p>

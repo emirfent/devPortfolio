@@ -13,7 +13,7 @@ export default function Page(){
       {/* Snippets header */}
       <div className="p-3 border-b border-gray-600 bg-gray-800/30 h-12 flex items-center">
         <div 
-          className="flex items-center gap-2 text-gray-300 font-mono text-xs font-medium cursor-pointer hover:bg-gray-800/50 px-2 py-1 rounded-sm transition-colors"
+          className="flex items-center gap-2 text-gray-300 font-mono text-sm font-medium cursor-pointer hover:bg-gray-800/50 px-2 py-1 rounded-sm transition-colors"
           onClick={() => setCodeSnippetsExpanded(!codeSnippetsExpanded)}
         >
           <Icon name={codeSnippetsExpanded ? "ri-arrow-down-s-line" : "ri-arrow-right-s-line"} className="w-3 h-3 flex-shrink-0"/>
@@ -26,14 +26,14 @@ export default function Page(){
         <div className="flex-1 p-4 space-y-4">
           {/* Plant Disease Detection */}
           <div className="bg-gray-800/50 border border-gray-600 rounded p-3">
-            <div className="flex items-center gap-2 mb-2 text-xs text-gray-400">
-              <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center text-white text-xs">
+            <div className="flex items-center gap-2 mb-2 text-sm text-gray-400">
+              <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center text-white text-sm">
                 🌱
               </div>
               <span className="text-green-400">@plant-disease</span>
               <span className="ml-auto">python</span>
             </div>
-            <div className="bg-gray-900 rounded p-2 font-mono text-xs">
+            <div className="bg-gray-900 rounded p-2 font-mono text-sm">
               <div className="text-purple-400">def <span className="text-cyan-400">detect_plant_disease</span><span className="text-gray-300">(image_path): </span></div>
               <div className="text-gray-300 ml-2">img = cv2.imread(image_path)</div>
               <div className="text-gray-300 ml-2">features = extract_features(img)</div>
@@ -44,14 +44,14 @@ export default function Page(){
 
           {/* Arduino Smart Waste System */}
           <div className="bg-gray-800/50 border border-gray-600 rounded p-3">
-            <div className="flex items-center gap-2 mb-2 text-xs text-gray-400">
-              <div className="w-6 h-6 bg-orange-500 rounded-full flex items-center justify-center text-white text-xs">
+            <div className="flex items-center gap-2 mb-2 text-sm text-gray-400">
+              <div className="w-6 h-6 bg-orange-500 rounded-full flex items-center justify-center text-white text-sm">
                 🔧
               </div>
               <span className="text-orange-400">@smart-waste</span>
               <span className="ml-auto">arduino</span>
             </div>
-            <div className="bg-gray-900 rounded p-2 font-mono text-xs">
+            <div className="bg-gray-900 rounded p-2 font-mono text-sm">
               <div className="text-purple-400">void <span className="text-cyan-400">setup</span><span className="text-gray-300">() </span>{"{"}</div>
               <div className="text-gray-300 ml-2">Serial.begin(9600);</div>
               <div className="text-gray-300 ml-2">pinMode(TRIG_PIN, OUTPUT);</div>
@@ -63,14 +63,14 @@ export default function Page(){
 
           {/* Next.js Appointment System */}
           <div className="bg-gray-800/50 border border-gray-600 rounded p-3">
-            <div className="flex items-center gap-2 mb-2 text-xs text-gray-400">
-              <div className="w-6 h-6 bg-cyan-500 rounded-full flex items-center justify-center text-white text-xs">
+            <div className="flex items-center gap-2 mb-2 text-sm text-gray-400">
+              <div className="w-6 h-6 bg-cyan-500 rounded-full flex items-center justify-center text-white text-sm">
                 ⚛️
               </div>
               <span className="text-cyan-400">@appointment-sys</span>
               <span className="ml-auto">next.js</span>
             </div>
-            <div className="bg-gray-900 rounded p-2 font-mono text-xs">
+            <div className="bg-gray-900 rounded p-2 font-mono text-sm">
               <div className="text-purple-400">export <span className="text-cyan-400">async function</span> <span className="text-yellow-400">createAppointment</span><span className="text-gray-300">(data) </span>{"{"}</div>
               <div className="text-cyan-400 ml-2">await connectDB();</div>
               <div className="text-gray-300 ml-2">const appointment = new Appointment(data);</div>
@@ -89,7 +89,7 @@ export default function Page(){
       editorTab={editorTab}
       rightPanel={rightPanel}
     >
-      <div className="font-mono text-xs space-y-1 overflow-x-auto animate-fadeInUp">
+      <div className="font-mono text-sm space-y-1 overflow-x-auto animate-fadeInUp">
         <div className="flex">
           <span className="text-gray-500 w-8 text-right mr-4">1</span>
           <span className="text-gray-500">{"/**"}</span>

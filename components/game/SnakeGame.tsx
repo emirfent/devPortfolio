@@ -181,28 +181,28 @@ export default function SnakeGame() {
         <div className="grid grid-cols-2 gap-4">
           {/* Controls */}
           <div className="bg-gray-900/60 px-3 py-3 rounded-lg border border-gray-700/40 text-gray-300">
-            <div className="text-gray-400 font-mono text-xs mb-2">{`// use keyboard`}</div>
-            <div className="grid grid-cols-3 gap-1 text-xs">
+            <div className="text-gray-400 font-mono text-sm mb-2">{`// use keyboard`}</div>
+            <div className="grid grid-cols-3 gap-1 text-sm">
               <div></div>
               <div className="bg-gray-700/70 p-1 rounded text-center font-mono flex items-center justify-center">
-                <Icon name="ri-arrow-up-line" className="text-xs text-teal-400"/>
+                <Icon name="ri-arrow-up-line" className="text-sm text-teal-400"/>
               </div>
               <div></div>
               <div className="bg-gray-700/70 p-1 rounded text-center font-mono flex items-center justify-center">
-                <Icon name="ri-arrow-left-line" className="text-xs text-teal-400"/>
+                <Icon name="ri-arrow-left-line" className="text-sm text-teal-400"/>
               </div>
               <div className="bg-gray-700/70 p-1 rounded text-center font-mono flex items-center justify-center">
-                <Icon name="ri-arrow-down-line" className="text-xs text-teal-400"/>
+                <Icon name="ri-arrow-down-line" className="text-sm text-teal-400"/>
               </div>
               <div className="bg-gray-700/70 p-1 rounded text-center font-mono flex items-center justify-center">
-                <Icon name="ri-arrow-right-line" className="text-xs text-teal-400"/>
+                <Icon name="ri-arrow-right-line" className="text-sm text-teal-400"/>
               </div>
             </div>
           </div>
           
           {/* Food left */}
           <div className="bg-gradient-to-br from-gray-900/80 via-gray-800/60 to-gray-900/80 px-3 py-3 rounded-lg border border-orange-400/30 text-gray-300 shadow-lg">
-            <div className="text-orange-300 font-mono text-xs mb-2 flex items-center gap-1">
+            <div className="text-orange-300 font-mono text-sm mb-2 flex items-center gap-1">
               <span className="w-2 h-2 bg-orange-400 rounded-full animate-pulse"></span>
               food left: {foodCount}
             </div>
@@ -257,7 +257,7 @@ export default function SnakeGame() {
             
             {/* Game status */}
             <div className="text-center mb-2">
-              <div className="text-gray-400 font-mono text-xs">
+              <div className="text-gray-400 font-mono text-sm">
                 {gameRunning ? `${score}/15 Food` : gameWon ? 'You Won!' : gameOver ? 'Game Over' : 'Press Start'}
               </div>
             </div>
@@ -265,7 +265,7 @@ export default function SnakeGame() {
             {/* Reset button */}
             <button 
               onClick={resetGame}
-              className="w-full bg-gradient-to-r from-gray-700/80 to-gray-600/80 hover:from-red-600/80 hover:to-red-500/80 text-gray-300 hover:text-white px-3 py-1.5 rounded-md text-xs font-mono transition-all duration-300 border border-gray-600 hover:border-red-400/50 shadow-sm hover:shadow-md hover:scale-105"
+              className="w-full bg-gradient-to-r from-gray-700/80 to-gray-600/80 hover:from-red-600/80 hover:to-red-500/80 text-gray-300 hover:text-white px-3 py-1.5 rounded-md text-sm font-mono transition-all duration-300 border border-gray-600 hover:border-red-400/50 shadow-sm hover:shadow-md hover:scale-105"
               aria-label="Oyunu sıfırla"
             >
               <span className="flex items-center justify-center gap-1">
